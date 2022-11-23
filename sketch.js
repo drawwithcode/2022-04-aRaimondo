@@ -171,3 +171,7 @@ function windowResized(){                             //resize in tempo reale de
   pop()
 
 }
+
+document.ontouchmove = function(event) {
+  event.preventDefault();
+};
